@@ -1,0 +1,27 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "personal-site",
+  "author": "Oliver Qin",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.9.0",
+    "gatsby-plugin-google-analytics": "^2.9.0",
+    "gatsby-plugin-sharp": "^2.12.2",
+    "gatsby-source-filesystem": "^2.9.1",
+    "gatsby-transformer-sharp": "^2.10.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
