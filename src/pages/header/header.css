@@ -1,0 +1,10 @@
+#header {
+    height: 100%;
+    width: 20%;
+    padding: 5%;
+    border-right: 1px solid black;
+}
+
+#header h1 {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
