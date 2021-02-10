@@ -1,10 +1,67 @@
 #header {
-    height: 100%;
     width: 20%;
     padding: 5%;
     border-right: 1px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
 }
 
 #header h1 {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header img {
+    margin-left: -1.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#name {
+    text-decoration: none;
+    color: darkslategrey;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    opacity: 0.85;
+}
+
+#name:hover {
+    opacity: 1;
+}
+
+#navContent p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+#navIcons {
+    margin-top: 20px;
+}
+
+#navIcons a {
+    padding: 5%;
+    opacity: 0.9;
+}
+
+#navIcons a:hover {
+    opacity: 1;
+}
+
+#navPages {
+    display: flex;
+    flex-direction: column;
+}
+
+#navPages a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+
+#navPages a:hover {
+    opacity: 1;
 }
