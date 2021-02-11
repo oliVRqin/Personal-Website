@@ -1,8 +1,16 @@
 import React from 'react';
+import Header from '../pages/header/header';
 
 const Blog = () => {
     return (
-        <p>Blog</p>
+        <div id="pageContent">
+            <Header />
+            <div id="blogContent">
+                <h1>Blog</h1>
+                <br></br>
+                <p>Ba da bee ba da byee</p>
+            </div>
+        </div>
     );
 };
 

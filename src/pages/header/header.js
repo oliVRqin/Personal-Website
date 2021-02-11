@@ -4,23 +4,62 @@ import Headshot from '../../images/personal_headshot.jpg';
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 import Button from '@material-ui/core/Button';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
         <div id="header">
             <div id="navName">
-                <a href="http://localhost:8000/" id="name">Oliver Qin</a>
+                {/* <a href="http://localhost:8000/" id="name">Oliver Qin</a> */}
+                <Link to="/" style={{ textDecoration: 'none' }}>
+                    <p id="name">Oliver Qin</p>
+                </Link>
             </div>
             <div id="navHeadshot">
                 <img src={Headshot} height="100%" width="100%" alt="Oliver Qin" />
             </div>
             <div id="navContent">
                 <div id="navPages">
-                    <a href="https://www.oliverqin.com/blog">
+                    {/* <a href="https://www.oliverqin.com/blog">
                         <Button color="secondary">
                             Blog
                         </Button>
-                    </a>
+                    </a> */}
+                    <Link to="/blog">
+                        <Button color="secondary">
+                            Blog
+                        </Button>
+                    </Link>
+                    {/* <Link to="/blog">
+                        <Button color="secondary">
+                            Blog
+                        </Button>
+                    </Link>
+                    <Link to="/reading">
+                        <Button color="secondary">
+                            Reading
+                        </Button>
+                    </Link>
+                    <Link to="/blog">
+                        <Button color="secondary">
+                            Blog
+                        </Button>
+                    </Link>
+                    <Link to="/projects">
+                        <Button color="secondary">
+                            Projects
+                        </Button>
+                    </Link>
+                    <Link to="/list">
+                        <Button color="secondary">
+                            Bucket List
+                        </Button>
+                    </Link>
+                    <Link to="/mail">
+                        <Button color="secondary">
+                            Monthly Mail
+                        </Button>
+                    </Link> */}
                     <br></br>
                     <a href="https://www.oliverqin.com/blog">
                         <Button color="secondary">

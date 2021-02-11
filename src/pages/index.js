@@ -1,30 +1,31 @@
 import * as React from "react";
-import Header from './header/header';
+// import Header from './header/header';
 import HomePage from './homePage/homePage';
 import './index.css';
-//import { Route, Switch, BrowserRouter } from 'react-router-dom';
-//import Blog from './blog';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import Blog from './Blog';
 //import Projects from './projects';
 //import Mail from './mail';
 
 const IndexPage = () => {
   return (
     <div id="content">
-      {/* <BrowserRouter>
+      <BrowserRouter>
           <Switch>
+              <Route exact path="/">
+                  <HomePage />
+              </Route>
               <Route exact path="/blog">
                   <Blog />
               </Route>
-              <Route exact path="/projects">
+              {/* <Route exact path="/projects">
                   <Projects />
               </Route>
               <Route exact path="/mail">
                   <Mail />
-              </Route>
+              </Route> */}
           </Switch>
-      </BrowserRouter> */}
-      <Header />
-      <HomePage />
+      </BrowserRouter>
     </div>
   )
 }
