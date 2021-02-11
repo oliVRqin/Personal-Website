@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 import Headshot from '../../images/personal_headshot.jpg';
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { IconContext } from "react-icons";
@@ -20,70 +20,64 @@ const Header = () => {
             </div>
             <div id="navContent">
                 <div id="navPages">
-                    {/* <a href="https://www.oliverqin.com/blog">
-                        <Button color="secondary">
-                            Blog
-                        </Button>
-                    </a> */}
                     <Link to="/blog">
                         <Button color="secondary">
                             Blog
                         </Button>
                     </Link>
-                    {/* <Link to="/blog">
-                        <Button color="secondary">
-                            Blog
-                        </Button>
-                    </Link>
+                    <br></br>
                     <Link to="/reading">
                         <Button color="secondary">
                             Reading
                         </Button>
                     </Link>
-                    <Link to="/blog">
-                        <Button color="secondary">
-                            Blog
-                        </Button>
-                    </Link>
+                    <br></br>
                     <Link to="/projects">
                         <Button color="secondary">
                             Projects
                         </Button>
                     </Link>
+                    <br></br>
                     <Link to="/list">
                         <Button color="secondary">
                             Bucket List
                         </Button>
                     </Link>
+                    <br></br>
                     <Link to="/mail">
                         <Button color="secondary">
                             Monthly Mail
                         </Button>
-                    </Link> */}
-                    <br></br>
+                    </Link>
+                    {/* <a href="https://www.oliverqin.com/blog">
+                        <Button color="secondary">
+                            Blog
+                        </Button>
+                    </a> */}
+                    {/* <br></br>
                     <a href="https://www.oliverqin.com/blog">
                         <Button color="secondary">
                             Reading
                         </Button>
-                    </a>
-                    <br></br>
+                    </a> */}
+                    {/* <br></br>
                     <a href="https://www.oliverqin.com/blog">
                         <Button color="secondary">
                             Projects
                         </Button>
-                    </a>
-                    <br></br>
+                    </a> */}
+                    {/* <br></br>
                     <a href="https://www.oliverqin.com/bucket-list">
                         <Button color="secondary">
                             Bucket List
                         </Button>
-                    </a>
-                    <br></br>
+                    </a> */}
+                    {/* <br></br>
                     <a href="https://www.oliverqin.com/join">
                         <Button color="secondary">
                             Monthly Mail
                         </Button>
-                    </a>
+                    </a> */}
                 </div>
             </div>
             <br></br>

@@ -1,11 +1,10 @@
 import * as React from "react";
-// import Header from './header/header';
-import HomePage from './homePage/homePage';
 import './index.css';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import Blog from './Blog';
-//import Projects from './projects';
-//import Mail from './mail';
+import HomePage from './HomePage/HomePage';
+import Blog from './Blog/Blog';
+import Projects from './Projects/Projects';
+import Mail from './Mail/Mail';
 
 const IndexPage = () => {
   return (
@@ -18,16 +17,16 @@ const IndexPage = () => {
               <Route exact path="/blog">
                   <Blog />
               </Route>
-              {/* <Route exact path="/projects">
+              <Route exact path="/projects">
                   <Projects />
               </Route>
               <Route exact path="/mail">
                   <Mail />
-              </Route> */}
+              </Route>
           </Switch>
       </BrowserRouter>
     </div>
   )
 }
 
-export default IndexPage
+export default IndexPage;

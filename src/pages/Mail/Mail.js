@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../pages/header/header';
+import Header from '../Header/Header';
 
-const Blog = () => {
+const Mail = () => {
     return (
         <div id="pageContent">
             <Header />
-            <div id="blogContent">
-                <h1>Blog</h1>
+            <div id="mailContent">
+                <h1>Mail</h1>
                 <br></br>
                 <p>Ba da bee ba da byee</p>
             </div>
@@ -14,4 +14,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;
+export default Mail;
