@@ -10,7 +10,6 @@ const Header = () => {
     return (
         <div id="header">
             <div id="navName">
-                {/* <a href="http://localhost:8000/" id="name">Oliver Qin</a> */}
                 <Link to="/" style={{ textDecoration: 'none' }}>
                     <p id="name">Oliver Qin</p>
                 </Link>

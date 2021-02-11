@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import Header from '../Header/Header';
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
     return (
@@ -15,11 +16,11 @@ const HomePage = () => {
                 <br></br>
                 I love thinking about how technological advancements could possibly shape the future of our world, and am particularly interested 
                 in how virtual reality could possibly allow immersive “virtual worlds" to be built in the future. I also reflect a lot, and through my journey 
-                of running into new perspectives I will write some of them on this <a href="https://www.oliverqin.com/blog">blog</a>. <br></br>
+                of running into new perspectives I will write some of them on this <Link to="/blog">blog</Link>. <br></br>
                 <br></br>
                 Outside of school I love to explore the outdoors, and you could usually find me either <a href="https://www.strava.com/athletes/55703624">going for a run, biking 
                 around Pittsburgh</a>, or playing basketball. I like to experience and learn new things, and am always down for an adventure or two! Some adventures I wish to 
-                experience/goals I want to accomplish in the years ahead are <a href="https://www.oliverqin.com/bucket-list">here</a>. <br></br>
+                experience/goals I want to accomplish in the years ahead are <Link to="/list">here</Link>. <br></br>
                 <br></br>
                 If you're into amateur photography (mostly of the landscape variety), feel free to <a href="https://www.instagram.com/oliver_qin_ph/">check out some photos</a> I take in my free time.<br></br>
                 <br></br>
