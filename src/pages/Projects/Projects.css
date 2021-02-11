@@ -2,12 +2,12 @@
     margin: auto;
 }
 
-#blogContent {
+#projectContent {
     padding: 5%;
     width: 80%;
 }
 
-#blogContent h1 {
+#projectContent h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -15,7 +15,7 @@
     font-size: 32px;
 }
 
-#blogDescription {
+#projectDescription {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: 0;
     margin-bottom: 1rem;

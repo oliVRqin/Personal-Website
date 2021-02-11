@@ -3,7 +3,9 @@ import './index.css';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import HomePage from './HomePage/HomePage';
 import Blog from './Blog/Blog';
+import Reading from './Reading/Reading';
 import Projects from './Projects/Projects';
+import List from './List/List';
 import Mail from './Mail/Mail';
 
 const IndexPage = () => {
@@ -17,8 +19,14 @@ const IndexPage = () => {
               <Route exact path="/blog">
                   <Blog />
               </Route>
+              <Route exact path="/reading">
+                  <Reading />
+              </Route>
               <Route exact path="/projects">
                   <Projects />
+              </Route>
+              <Route exact path="/list">
+                  <List />
               </Route>
               <Route exact path="/mail">
                   <Mail />

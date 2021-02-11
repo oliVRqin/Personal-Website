@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
+import './Blog.css';
 
 const Blog = () => {
     return (
@@ -8,7 +9,7 @@ const Blog = () => {
             <div id="blogContent">
                 <h1>Blog</h1>
                 <br></br>
-                <p>Ba da bee ba da byee</p>
+                <p id="blogDescription">Ba da bee ba da byee</p>
             </div>
         </div>
     );

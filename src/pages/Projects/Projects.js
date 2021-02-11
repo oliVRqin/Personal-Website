@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
+import './Projects.css';
 
 const Projects = () => {
     return (
@@ -8,7 +9,7 @@ const Projects = () => {
             <div id="projectContent">
                 <h1>Projects</h1>
                 <br></br>
-                <p>All dem projects here</p>
+                <p id="projectDescription">All dem projects here</p>
             </div>
         </div>
     );
