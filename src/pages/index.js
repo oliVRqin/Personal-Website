@@ -1,8 +1,8 @@
 import * as React from "react";
 import './index.css';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import HomePage from './HomePage/homePage.js';
-import Blog from './Blog/blog.js';
+import HomePage from './HomePage/HomePage';
+import Blog from './Blog/Blog';
 import Reading from './Reading/Reading';
 import Projects from './Projects/Projects';
 import List from './List/List';

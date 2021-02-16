@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header/header.js';
+import Header from '../Header/Header.js';
 import './Mail.css';
 
 const Mail = () => {
