@@ -1,6 +1,6 @@
 import React from 'react';
 import './List.css';
-import Header from '../Header/Header';
+import Header from '../Header/header.js';
 
 const List = () => {
     return (
